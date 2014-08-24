@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#3B3738"
+    >
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="User Name"
+            android:id="@+id/userName"
+        android:textSize="15dp"
+            android:textColor="#000000"
+
+        android:layout_above="@+id/login"
+        android:layout_marginBottom="123dp"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignStart="@+id/login"
+        android:layout_alignRight="@+id/login"
+        android:layout_alignEnd="@+id/login" />
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/pword"
+            android:hint="Password"
+        android:textSize="15dp"
+            android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/userName"
+        android:layout_alignStart="@+id/userName"
+        android:layout_alignRight="@+id/userName"
+        android:layout_alignEnd="@+id/userName" />
+
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="Login"
+            android:id="@+id/login"
+            android:textSize="13dp"
+            android:textColor="#000000"
+        android:background="#279B41"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/loginErrorMsg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:textColor="#993333"/>
+
+
+</RelativeLayout>
+
